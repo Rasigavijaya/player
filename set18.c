@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-int main() 
+void main() 
 {
     char a[10];
     char str[]="kabali";
@@ -44,5 +44,5 @@ int main()
        }k++;
    }
    printf("%d",count);
-	return 0;
+	
 }
