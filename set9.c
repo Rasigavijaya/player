@@ -5,7 +5,8 @@ int main()
   scanf("%d %d",&n1,&n2);
   for(i=n1;i<=n2;i++)
   {
-      flag=0;
+ 
+    flag=0;
       for(j=2;j<=(i/2);j++)
       {
           if((i%j)==0)
@@ -24,5 +25,5 @@ int main()
         }
   }
   printf("%d",count);
-   return 0;
+  return 0;
 }
