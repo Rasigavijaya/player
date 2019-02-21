@@ -1,14 +1,22 @@
-#include<stdio.h>
-void main()
+
+int main()
 {
- char a[50],b[50];
- int i,n,j=0;
- scanf("%s",&a);
- n=strlen(a);
- for(i=0;i<n;i++)
- {
-  if(a[i]>'90')
-  {
-   b[j]=a[i]-32;
-   j++:
-  }
+    char a[50];
+    int n,i;
+    scanf("%s",a);
+    n=strlen(a);
+    for(i=0;i<n;i++)
+    {
+        if(a[i]>=65 && a[i]<=90)
+        {
+            a[i]=a[i]+32;
+        }
+        if(a[i]>=97 && a[i]<=122)
+        {
+            a[i]=a[i]-32;
+        }
+    }
+    printf("%s",a);
+    return 0;
+}
+
