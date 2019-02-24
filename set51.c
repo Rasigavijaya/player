@@ -5,7 +5,7 @@ int main(void)
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
-		scanf("%d ",&array[i]);
+	scanf("%d ",&array[i]);
 	}
 	for(i=0;i<n;i++)
 	{
@@ -13,9 +13,9 @@ int main(void)
 		{
 		if(array[i]>array[j])
 		{
-			temp=array[i];
-			array[i]=array[j];
-			array[j]=temp;
+		temp=array[i];
+		array[i]=array[j];
+		array[j]=temp;
 		}
 		}
 	}
