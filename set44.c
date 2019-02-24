@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-	int n,k,i,j;
+int n,k,i,j;
 	char a[10],temp;
 	scanf("%s",a);
 	n=strlen(a);
@@ -16,6 +16,7 @@ int main()
 	}
 	    a[0]=temp;
 	   
-	} printf("%s",a);
+	} 
+	printf("%s",a);
 	return 0;
 }
