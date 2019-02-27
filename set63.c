@@ -1,0 +1,30 @@
+#include<stdio.h>
+void main()
+{
+    int a[50],b[50],n,c[30],k=0,i,j;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&b[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        for(j=0;j<n;j++)
+        {
+            if(a[i]==b[j])
+            {
+                c[k]=a[i];
+                k++;
+            }
+        }
+    }
+    c[k]='\0';
+    for(i=0;c[i]!='\0';i++)
+    {
+        printf("%d\t",c[i]);
+    }
+}
